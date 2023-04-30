@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "lato", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  .signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  }
+  .title {
+    font-size: 50px;
+    color: #428def;
+    margin: 40px 0px 5px 0px;
+  }
+  input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color:#E2DFD2;
+  }
+  .inputContainer{
+    margin-top: 25px;
+  }
+  .textline {
+    margin: 0px 0px 300px 0px;
+  }
+  .textline2 {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  .submitBtn{
+    width: 100%;
+    padding: 15px 30px;
+    border: none;
+    background-color: #428def;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .textline3{
+    margin-bottom: 30px;
+  }
+  .btn{
+    margin-bottom: 30px;
+  }
+
+  /* Sign in Page CSS styles */
+
+  .signbtn{
+    background-color: #ffffff;
+    color: #428def;
+    border: 2px solid #428def;
+  }
+  .forgettext{
+    text-align: right;
+    color: #f78720;
+  }
+  
